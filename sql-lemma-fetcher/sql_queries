@@ -1,0 +1,1 @@
+MariaDB [enwiktionary_p]> select page_title into outfile "dropbox/lemmas.csv" from categorylinks INNER JOIN page ON categorylinks.cl_from = page.page_id where cl_to = "Chinese_lemmas" and not page_title regexp '[[:alnum:]]' limit 100;
