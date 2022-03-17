@@ -1,0 +1,373 @@
+{{character info}}
+{{character info|0xfa26}}
+==Translingual==
+{{stroke order|type=animate}}
+
+===Alternative forms===
+Note that there are two Unicode z-variants, with code points U+90FD and U+FA26 (the latter is a compatibility variant and contains an extra dot below [[耂]] in [[者]]).
+
+===Han character===
+{{Han char|rn=163|rad=邑|as=08|sn=11|four=47627|canj=JANL|ids=⿰者⻏}}
+
+====Derived characters====
+* [[嘟]] [[𢵋]] [[𨗊]] [[𣛭]] [[𡳤]] [[𨅮]] [[𩼁]] [[𡳣]] [[𡼞]] [[𡳢]] [[𥳉]] [[𧹼]]
+
+====References====
+{{Han ref|kx=1274.090|dkj=39497|dj=1773.010|hdz=63776.070|uh=90FD}}
+{{Han ref|uh=FA26}}
+
+----
+
+==Chinese==
+{{zh-forms|alt=𨜞}}
+
+===Glyph origin===
+{{Han etym}}
+{{Han compound|者|邑|t2=town, city|ls=psc|c1=p|c2=s}}.
+
+===Etymology 1===
+{{rfe|zh}}
+
+====Pronunciation====
+{{zh-pron
+|m=dū
+|m-s=du1
+|c=dou1
+|c-t=u1
+|g=du1
+|h=pfs=tû;gd=du1
+|j=du1
+|mb=dú
+|md=dŭ
+|mn=to͘
+|mn-t=dou1
+|w=1tu
+|x=dou1
+|ca=LL-Q9186-Justinrleung-都.wav
+|mc=y
+|oc=y
+|cat=n,v,a,pn
+}}
+
+====Definitions====
+{{zh-hanzi}}
+
+# [[metropolis]]; large [[city]]
+#: {{zh-x|都{dū}市|metropolis; major city}}
+# [[capital]]; capital [[city]]
+#: {{zh-x|都{dū}城|capital}}
+# {{lb|zh|literary}} to make a place the [[capital]] city; to [[establish]] a capital
+# {{lb|zh|obsolete}} [[graceful]]; [[elegant]]
+# {{surname|zh}} [[Du]]
+
+=====Synonyms=====
+* {{sense|metropolis}}
+{{zh-syn-saurus|都市}}
+
+====Compounds====
+{{zh-der|名都|兩都|大都會|奧古斯都|吳都|八都兒|大都|不賢都頭|奠都|吁咈都俞|嘓都嘓都|下都|國都|伐子都|巴都兒|幽都|大都會區|宏都拉斯|中都|八都|建都|八旗都統|店都知|帝都|三都賦|上都|定都|子都|兩都賦|天都|大都護|大都來|京都|南都|嘴盧都|加德滿都|古都|八都魯|成都平原|水都|打都磨子|滴羞都蘇|滴修都速|研京練都|棉都|成都賣卜|清都|港都|皇都|故都|把都兒|拔都|玄都|煤都|海上都市|班都斯山|東都|拔都魯|駙馬都尉|都邑|老都爺|都會區|都會|都柏林|都人士|通都大邑|陪都|骨都|都都磨磨|都都摸摸|都坑|都轄|都試|都料匠|都府|西都賦|都根主兒|骨都兒|都中|都護|衛星都市|霸都魯|谷都|自治都市|遷都|雙核都市|都市計畫|都江堰|都鄙|鴻都|舊都|都市家具|都保|都鬼|骨都都|首都|還都|都子|都嚕|關都尉|都俞吁咈|鐵都|花都|都來|都講|金都|酆都|都城|都馬調|都頭|都雅|都鄙有章|都纂|都管|都督|都抹|都把勢|都市病|都市化|都市之肺|都市|都寺|都大|郢都|都門|興都斯坦|西都|行都|都會文學|麗都|鎳都|曾都|郫都|宜都|都鎮灣|深都|都亭|七都|松都}}
+
+====Descendants====
+{{CJKV||と|도|đô}}
+
+===Etymology 2===
+Colloquial form of {{och-l|諸|id=2|all}} ({{zh-ref|Schuessler, 2007}}).
+
+====Pronunciation====
+{{zh-pron
+|m=dōu,dū,1nb=standard in Mainland and Taiwan,2nb=standard in Mainland
+|m_note=dū - only used in certain fossilized expressions, e.g. {{zh-l|*大都}}
+|m-s=dou1
+|dg=ду1
+|c=dou1
+|c-t=u1,du2
+|c-t_note=du2 - “also”
+|g=du1
+|h=pfs=tu/s:tû/s:lû;gd=du1
+|j=du1
+|mb=dú
+|md=dŭ
+|mn=ml:to͘/tw:to
+|mn-t=dou1
+|w=1tu
+|x=dou1
+|ca=LL-Q9186-Justinrleung-都.wav
+|ma=y
+|cat=adv
+}}
+
+====Definitions====
+{{zh-hanzi}}
+
+# [[all]]; [[both]] {{gl|used to indicate that the statement is true for every subject or object}}
+#: {{zh-x|我 都 知道 了。|I know '''everything'''. [ambiguous; may also mean “Even I know”.]}}
+#: {{zh-x|他 比 任何 人 都 好。|He is better than anyone else.}}
+#: {{zh-x|這裡 的 人 我 都 認識。|I know everyone here.}}
+#: {{zh-x|現在 在 超市 什麼 都 買 得{de} 到。|These days everything can be bought from a supermarket.}}
+#: {{zh-x|他 什麼 電影 都 不 看。|He doesn't watch any movies.}}
+#: {{zh-x|我 真 羨慕 他，在 哪裡 都 能 睡得{de}著[着]{zháo}。|I really envy him; he can sleep wherever he is.}}
+#: {{zh-x|大都{dōu}|generally}}
+# {{lb|zh|emphasis on subject}} [[even]]
+#: {{zh-x|我 都 不 知道，你 是 怎麼 知道 的？|How come you know it when even I don't know?}}
+# {{lb|zh|emphasis on object}} [[even]], interchangeable with {{zh-l|也}}
+#: {{zh-x|我 身上 一 分 錢 都 沒有。|I don't even have a single cent.}}
+#: {{zh-x|我 給 她 打 了 四 個 電話，她 一個 都 沒 接。|I called her four times, but she answered none of them.}}
+## {{lb|zh|emphasis}} {{n-g|Used in the {{lang|zh|[[連]]……都……}} structure; interchangeable with {{zh-l|也}}}}; [[even]]
+##: {{zh-x|他 '''連''' 畜{chù}生{sheng} '''都''' 不如，'''連''' 自己 的 父母 '''都''' 不 養活{huo}。|He is no better than an animal, because he doesn't even support his own parents.}}
+# [[already]]
+#: {{zh-x|都 四 點 了。|It is '''already''' 4 o'clock.}}
+#: {{zh-x|都 這麼 晚 了 嗎？|Is it that late '''already'''?}}
+# {{lb|zh|Cantonese}} [[as well]]; [[also]]; [[too]]
+#: {{zh-x|我 都 好 好。|I'm fine '''too'''.|C-GZ}}
+
+=====Usage notes=====
+* When negating {{lang|zh|都}}, the placement of {{zh-l|不}} is important.
+: {{lang|zh|不都}}: not all, not everyone.
+: {{lang|zh|都不}}: none, no one
+
+=====Synonyms=====
+{{zh-dial}}
+{{zh-dial|也}}
+
+====Compounds====
+{{zh-der|fold=1|臉都綠了|都齊|大都|名都|兩都|大都會|奧古斯都|吳都|八都兒|不賢都頭|奠都|吁咈都俞|嘓都嘓都|下都|國都|伐子都|巴都兒|幽都|大都會區|宏都拉斯|中都|八都|建都|八旗都統|店都知|帝都|三都賦|上都|定都|子都|兩都賦|天都|大都護|大都來|京都|南都|嘴盧都|加德滿都|古都|八都魯|成都平原|水都|打都磨子|滴羞都蘇|滴修都速|研京練都|棉都|成都賣卜|清都|港都|皇都|故都|把都兒|拔都|玄都|煤都|海上都市|班都斯山|東都|拔都魯|駙馬都尉|都邑|老都爺|都會區|都會|都柏林|都人士|通都大邑|陪都|骨都|都都磨磨|都都摸摸|都坑|都轄|都試|都料匠|都府|西都賦|都根主兒|骨都兒|都中|都護|衛星都市|霸都魯|谷都|自治都市|遷都|雙核都市|都市計畫|都江堰|都鄙|鴻都|舊都|都市家具|都保|都鬼|骨都都|首都|還都|都子|都嚕|關都尉|都俞吁咈|鐵都|花都|都來|都講|金都|酆都|都城|都馬調|都頭|都雅|都鄙有章|都纂|都管|都督|都抹|都把勢|都市病|都市化|都市之肺|都市|都寺|都大|郢都|都門|興都斯坦|西都|行都|都會文學|麗都}}
+
+===Etymology 3===
+{{zh-see|嘟|ss}}
+
+{{zh-cat|Beginning}}
+
+----
+
+==Japanese==
+{{ja-kanji forms|k=y}}
+
+===Kanji===
+{{ja-kanji|grade=3|rs=邑09|kyu=&#64038;}}
+
+====Readings====
+{{ja-readings
+|goon=つ
+|kanon=と
+|kun=みやこ-, すべ-て
+|nanori=いち, くに, さと, ひろ
+}}
+
+====Compounds====
+* {{ja-r|都%都%一|ど%ど%いつ|rom=-}}, {{ja-r|都%都%逸|ど%ど%いつ}}
+
+===Etymology 1===
+{{ja-kanjitab|みやこ|yomi=k|alt=京,京都}}
+{{wp|lang=ja}}
+{{wp|Capital city}}
+{{wp|Miyako}}
+
+{{IPAfont|⟨mi<sub>1</sub>yako<sub>1</sub>⟩}} → *{{IPAchar|/mʲijakʷo/}} → {{IPAchar|/mijako/}}
+
+From {{inh|ja|ojp|-}}.
+
+====Pronunciation====
+{{ja-pron|みやこ|yomi=k|acc=0|acc_ref=DJR}}
+
+====Noun====
+{{ja-noun|みやこ}}
+
+# {{lb|ja|sort=みやこ|archaic}} the [[place]] of [[residence]] of the [[emperor]]
+# {{lb|ja|by extension}} a [[capital city]]
+# {{lb|ja|by extension}} a [[capital#Noun|capital]] {{gl|most [[important]] [[city]] in the [[field]] [[specify|specified]]}}
+# {{lb|ja|sort=みやこ|shogi|colloquial}} {{short for|ja|都詰め|tr=miyakozume|dot=:|sort=みやこ}} [[move|moving]] the {{m|ja|王将|tr=ōshō}}/{{m|ja|玉将|tr=gyokushō||[[king]]}} to the [[center]] of the [[board]] with other [[piece]]s [[close]] [[together]]
+
+=====Derived terms=====
+{{der-top4}}
+* {{ja-r|都びる|みやこびる}}
+* {{ja-r|都%遊び|みやこ%あそび}}
+* {{ja-r|都%出で|みやこ%いで}}
+* {{ja-r|都%入り|みやこ%いり}}
+* {{ja-r|都%移し|みやこ%うつし|rom=-}}, {{ja-r|都%遷し|みやこ%うつし}}
+* {{ja-r|都%移り|みやこ%うつり|rom=-}}, {{ja-r|都%遷り|みやこ%うつり}}
+* {{ja-r|都%瓜|みやこ%うり}}
+* {{ja-r|都%落ち|みやこ%おち}}
+* {{ja-r|都%顔|みやこ%がお}}
+* {{ja-r|都%形|みやこ%-がた}}
+* {{ja-r|都 見%物|みやこ けん%ぶつ}}
+* {{ja-r|都 女%郎|みやこ じょ%ろう}}
+* {{ja-r|都 上%臈|みやこ じょう%ろう}}
+* {{ja-r|都%育ち|みやこ%そだち}}
+* {{ja-r|都%染め|みやこ%ぞめ}}
+* {{ja-r|都%詰め|みやこ%づめ}}
+* {{ja-r|都 道%者|みやこ どう%しゃ}}
+* {{ja-r|都%鳥|ミヤコ%ドリ}}
+* {{ja-r|都%上り|みやこ%のぼり}}
+* {{ja-r|都%柱|みやこ%ばしら}}
+* {{ja-r|都%人|みやこ%びと}}
+* {{ja-r|海の都|うみ の みやこ}}
+* {{ja-r|梅の都|うめ の みやこ}}
+* {{ja-r|桂の都|かつら の みやこ}}
+* {{ja-r|国つ都|くに つ みやこ}}
+* {{ja-r|雲の都|くも の みやこ}}
+* {{ja-r|志賀の都|^しが の みやこ}}
+* {{ja-r|寂%光の都|じゃっ%こう の みやこ}}
+* {{ja-r|多気の都|^たけ の みやこ}}
+* {{ja-r|龍の都|たつ の みやこ}}
+* {{ja-r|玉の都|たま の みやこ}}
+* {{ja-r|月の都|つき の みやこ}}
+* {{ja-r|奈%良の都|^な%ら の みやこ}}
+* {{ja-r|花の都|はな の みやこ}}
+* {{ja-r|鄙の都|ひな の みやこ}}
+{{der-bottom}}
+
+=====Proverbs=====
+* {{ja-r|住めば都|すめば みやこ}}
+
+=====Descendants=====
+* {{desc|en|bor=1|Meaco|t=[[Kyōto]]}}
+* {{desc|la|bor=1|Meacum|t=[[Kyōto]]}}
+
+====Proper noun====
+{{ja-pos|proper|みやこ}}
+
+# {{n-g|a [[placename]]}}
+# {{surname|ja|A=a|nodot=1|sort=みやこ}}
+# {{given name|ja|female|A=a|sort=みやこ}}
+
+===Etymology 2===
+{{ja-kanjitab|と|yomi=kanon}}
+
+From {{der|ja|ltc|sort=と|-}} {{ltc-l|都}}.
+
+The {{m|ja|漢音|tr=kan'on|lit=[[Han]] [[sound]]}} reading, so likely a later borrowing from {{cog|ltc|-}}.
+
+====Pronunciation====
+{{ja-pron|と|yomi=o|acc=0|acc_ref=DJR}}
+
+====Noun====
+{{ja-noun|と}}
+
+# a [[capital city]]
+# a [[city]], [[metropolis]]
+# {{short for|ja|東京都|tr=Tōkyō-to|dot=:}} the [[capital]] [[prefecture]] of [[Tokyo]]
+
+=====Derived terms=====
+{{der-top4}}
+* {{ja-r|都%営|と%えい}}
+* {{ja-r|都%政|と%せい}}
+* {{ja-r|都%庁|^と%ちょう}}
+* {{ja-r|都%道%府%県|と%どう%ふ%けん}}
+* {{ja-r|都%民|と%みん}}
+* {{ja-r|都%立|と%りつ}}
+* {{ja-r|東%京%都|^とう%きょう%-と}}
+{{der-bottom}}
+
+====Affix====
+{{ja-pos|affix|と}}
+
+# [[city]], [[metropolis]]
+# [[capital city]]
+# [[elegant]], [[graceful]], [[refined]]
+# [[gather]], [[command#Verb|command]]
+
+====Derived terms====
+{{der-top4}}
+* {{ja-r|都%雅|と%が}}
+* {{ja-r|都%会|と%かい}}
+* {{ja-r|都%議|と%ぎ}}
+* {{ja-r|都%銀|と%ぎん}}
+* {{ja-r|都%市|と%し}}
+* {{ja-r|都%心|と%しん}}
+* {{ja-r|都%人|と%じん}}
+* {{ja-r|都%政|と%せい}}
+* {{ja-r|都%電|と%でん}}
+* {{ja-r|都%統|と%とう}}
+* {{ja-r|都%督|と%とく}}
+* {{ja-r|旧%都|きゅう%と}}
+* {{ja-r|京%都|^きょう%と}}
+* {{ja-r|古%都|こ%と}}
+* {{ja-r|首%都|しゅ%と}}
+* {{ja-r|新%都|しん%と}}
+* {{ja-r|遷%都|せん%と}}
+* {{ja-r|全%都|ぜん%と}}
+* {{ja-r|帝%都|てい%と}}
+* {{ja-r|奠%都|てん%と}}
+{{der-bottom}}
+
+===Etymology 3===
+{{ja-kanjitab|つ|yomi=goon}}
+
+From {{der|ja|ltc|-}} {{ltc-l|都}}.
+
+The {{m|ja|呉音|tr=goon|lit=[[Wu]] [[sound]]}} reading, so likely the earlier borrowing from {{cog|ltc|-}}.
+
+====Affix====
+{{ja-pos|affix|つ}}
+
+# [[all]], [[both]], [[everyone]], [[whole]]
+
+=====Derived terms=====
+* {{ja-r|都%合|つ%ごう}}
+* {{ja-r|都%度|つ%ど}}
+
+===References===
+<references/>
+
+----
+
+==Korean==
+
+===Hanja===
+{{ko-hanja|도읍|도}}
+
+# {{hanja form of|도|[[capital city]]}}
+# {{hanja form of|도|[[all]], the [[whole]]}}
+# {{hanja form of|도|[[elegant]], [[refined]]}}
+
+====Compounds====
+* {{ko-l|도시|[[city]]|都市}}
+
+----
+
+==Okinawan==
+
+===Kanji===
+{{ryu-kanji|grade=3|rs=邑09|kyu=&#64038;}}
+
+====Readings====
+{{ryu-readings
+|on=ち, とぅ
+}}
+
+====Compounds====
+* {{ja-r|都%合|ち%ごー}}
+* {{ja-r|京%都|^ちょー%とぅ}}
+
+----
+
+==Old Japanese==
+
+===Alternative forms===
+* {{l|ojp|京}}, {{l|ojp|京都}}
+
+===Etymology===
+Originally a compound of {{com|ojp|sort=みやこ|宮|tr1=mi<sub>1</sub>ya|t1=[[palace]]}} and an uncertain {{m|ojp|こ|tr=ko<sub>1</sub>}} referring to a [[place]].
+* The ''ko'' is possibly {{m|ojp|処|tr=ko<sub>2</sub>|pos=affix indicating [[location]]}}, according to most dictionaries. However, poems in the ''{{w|Man'yōshū}}'' attest overwhelming phonetic usage of {{IPAfont|⟨ko<sub>1</sub>⟩}} instead of {{IPAfont|⟨ko<sub>2</sub>⟩}}.
+* The ''ko'' is likely {{m|ojp|子|tr=-ko<sub>1</sub>|pos=diminuative suffix}}, as some ''Man'yōshū'' poems use the {{lang|ojp|宮子}} reading.
+
+===Noun===
+{{head|ojp|noun|head=&#64038;|tr=mi<sub>1</sub>yako<sub>1</sub>}}
+
+# the [[place]] of [[residence]] of the [[emperor]], ''especially'' a [[temporary]] [[lodging]] in which the emperor [[stay]]s [[during]] an [[imperial]] [[visit#Noun|visit]]
+# {{lb|ja|by extension}} a [[capital city]]
+
+====Derived terms====
+* {{m|ojp|奈良の都|tr=Nara no<sub>2</sub> mi<sub>1</sub>yako<sub>1</sub>}}
+
+====Descendants====
+* {{desc|ja|都|tr=miyako}}
+
+----
+
+==Vietnamese==
+
+===Han character===
+{{vi-readings|reading=đô|rs=邑09}}
+
+# {{rfdef|vi|sort=邑09}}
