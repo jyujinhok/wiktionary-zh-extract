@@ -4,6 +4,8 @@ import sys
 import re
 import json
 import wikitextparser as wtp
+import argparse
+
 REGEXES = [None, None, re.compile("(?:^|\n)==([^=]+)==\n"), re.compile("\n===([^=]+)===\n")]
 
 def extract_toplevel_templates(text):
@@ -82,29 +84,34 @@ def extract_for_page(page, title, derivations):
             out[etym] = obj
     return out
 
-print("Loading xml file...")
-tree = ET.parse('articles.xml')
-root = tree.getroot()
-derivations = {}
-print("Preparsing derivation subpages...")
-for page in tqdm(root):
-    title = page.find("title").text
-    if not "/derived terms" in title:
-        continue
-    title = title.split("/")[0]
-    text = page.find("text").text
-    extracted = extract_for_etym(text, title, None)
-    if extracted:
-        derivations[title] = extracted[1]
-print(f"Found {len(derivations)} derivation pages")
-out = {}
-print("Parsing article data...")
-for page in tqdm(root):
-    title = page.find("title").text
-    text = page.find("text").text
-    extracted = extract_for_page(text, title, derivations)
-    if extracted:
-        out[title] = extracted
-print("Writing to disk...")
+parser = argparse.ArgumentParser()
+parser.add_argument("input", nargs="?", default="./articles.xml", help="articles.xml file from dump-extract (default './articles.xml'")
 
-json.dump(out, open("articledata.json", "w"), ensure_ascii = False)
+if __name__ == "__main__":
+    args = parser.parse_args()
+    print("Loading xml file...")
+    tree = ET.parse(args.input)
+    root = tree.getroot()
+    derivations = {}
+    print("Preparsing derivation subpages...")
+    for page in tqdm(root):
+        title = page.find("title").text
+        if not "/derived terms" in title:
+            continue
+        title = title.split("/")[0]
+        text = page.find("text").text
+        extracted = extract_for_etym(text, title, None)
+        if extracted:
+            derivations[title] = extracted[1]
+    print(f"Found {len(derivations)} derivation pages")
+    out = {}
+    print("Parsing article data...")
+    for page in tqdm(root):
+        title = page.find("title").text
+        text = page.find("text").text
+        extracted = extract_for_page(text, title, derivations)
+        if extracted:
+            out[title] = extracted
+    print("Writing to disk...")
+
+    json.dump(out, open("articledata.json", "w"), ensure_ascii = False)
