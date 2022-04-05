@@ -43,12 +43,22 @@ if __name__ == "__main__":
         json.dump(out, outfile, ensure_ascii = False)
     print("Written to ltc.json")
 
-    # och = json.load(open("../och-bs-parse/och_BS.json"))
-    # nogoods = []
-    # for ch in och:
-    #     if ch not in out: continue
-    #     och_b = {e[1].replace("ae", "æ").replace("ea", "ɛ").replace("+", "ɨ").replace("X", "").replace("H", "").replace("'", "ʔ") for e in och[ch]}
-    #     ltc_b = {wiktionary_to_baxter(e).replace("ɛɨ", "ɛ").replace("X", "").replace("H", "") for e in out[ch]}
-    #     # if any("r" in b for b in och_b):
-    #     if len(och_b) <= len(ltc_b) and och_b - ltc_b:
-    #         nogoods.append((ch, och_b, ltc_b))
+#     och = json.load(open("../och-bs-parse/och_BS.json"))
+#     nogoods = []
+#     ltc_inventory = set()
+#     och_inventory = set()
+#     cleaned_ltc = {}
+#     cleaned_och = {}
+#     for ch in och:
+#         if ch not in out: continue
+#         och_b = {e[1].replace("ae", "æ").replace("ea", "ɛ").replace("+", "ɨ").replace("X", "").replace("H", "").replace("'", "ʔ").replace('"', "ʔ") for e in och[ch]}
+#         ltc_b = {e[1].replace("ɛɨ", "ɛ").replace("X", "").replace("H", "") for e in out[ch]}
+#         och_inventory |= och_b
+#         ltc_inventory |= ltc_b
+#         cleaned_och[ch] = och_b
+#         cleaned_ltc[ch] = ltc_b
+#         # if any("y" in b for b in och_b):
+#         if len(och_b) <= len(ltc_b) and och_b - ltc_b:
+#             nogoods.append((ch, och_b, ltc_b))
+
+# # current nogoods: 423

@@ -146,7 +146,7 @@ BAXTER_FINAL = ["",
     "am", "ap", "jæm", "jom", "jæp", "jop",         # 143 144 145 146 147 148
     "æm", "æp", "ɛm", "ɛp",                         # 149 150 151 152
     "jiem", "jem", "jiep", "jep",                   # 153 154 155 156
-    "em", "ep", "om", "op",
+    "em", "ep", "om", "op",                         # 157 158 159 160
 ]
 
 def infer_categories(text):
@@ -187,17 +187,61 @@ def infer_categories(text):
 
     return initial_type, final_type, tone_label
 
+REMOVE_CHONGNIU = {
+    "jiej": "jej",
+    "jwiej": "jwej",
+    "jie": "je", 
+    "jwie": "jwe", 
+    "jij": "ij", 
+    "jwij": "wij", 
+    "jiew": "jew", 
+    "jin": "in", 
+    "jit": "it", 
+    "jwin": "win",
+    "jwit": "wit",
+    "jien": "jen",
+    "jiet": "jet",
+    "jwien": "jwen",
+    "jwiet": "jwet",
+    "jieng": "jeng",
+    "jiek": "jek",
+    "jwieng": "jweng",
+    "jwiek": "jwek",
+    "jim": "im",
+    "jip": "ip",
+    "jiem": "jem",
+    "jiep": "jep",
+}
+
+REMOVE_LABIAL_ROUNDING = {
+    "wan": "an",
+    "wat": "at",
+    "wang": "ang",
+    "wak": "ak",
+    "wa": "a",
+    "woj": "oj",
+    "jwang": "jang",
+    "jwak": "jak",
+    "jwoj": "joj",
+    "jwon": "jon",
+    "jwot": "jot",
+    "jwɨj": "jɨj",
+}
+
 def wiktionary_to_baxter(text):
     initial_type, final_type, tone_label = infer_categories(text)
     initial = BAXTER_INITIAL[initial_type]
     final = BAXTER_FINAL[final_type]
-    if "y" in initial and final.startswith("j"):
-        final = final[1:]
-    if "y" in initial and re.search(r"^w?i[aeiouæɛɨ]", final):
-        final = final.replace("i", "", 1)
-    if initial in {"t", "th", "d", "n", "ts", "tsh", "dz", "s", "z", "tsr", "tsrh", "dzr", "sr", "zr"}:
+    if initial not in {"p", "ph", "b", "m", "k", "kh", "g", "ng", "ʔ", "x", "h"}:
         try:
-            final = {"jieng": "jeng", "jiek": "jek", "jwieng": "jweng", "jwiek": "jwek"}[final]
+            final = REMOVE_CHONGNIU[final]
         except KeyError:
             pass
+    if initial in {"p", "ph", "b", "m"}:
+        try:
+            final = REMOVE_LABIAL_ROUNDING[final]
+        except KeyError:
+            pass
+    if "y" in initial and final.startswith("j"):
+        final = final[1:]
     return initial + final + tone_label
