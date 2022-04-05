@@ -142,6 +142,8 @@ if __name__ == "__main__":
         lemmas = get_lemma_map()
         lemma_predicate = lambda x: x in lemmas or (x.endswith("/derived terms") and x.split("/")[0] in lemmas)
         dial_predicate = lambda x: x.startswith("Module:zh/data/dial-syn/")
+        ltc_predicate = lambda x: x.startswith("Module:zh/data/ltc-pron/")
+        och_bs_predicate = lambda x: x.startswith("Module:zh/data/och-pron-BS/")
 
 
         modules = open("modules.xml", "w")
@@ -149,6 +151,18 @@ if __name__ == "__main__":
         print("Extracting module data...")
         write_xml(index_txt_filename, xml_filename, modules, dial_predicate)
         modules.write("</modules>")
+
+        ltc = open("ltc.xml", "w")
+        ltc.write("<modules>")
+        print("Extracting ltc data...")
+        write_xml(index_txt_filename, xml_filename, ltc, ltc_predicate)
+        ltc.write("</modules>")
+
+        och_bs = open("och_BS.xml", "w")
+        och_bs.write("<modules>")
+        print("Extracting och_BS data...")
+        write_xml(index_txt_filename, xml_filename, och_bs, och_bs_predicate)
+        och_bs.write("</modules>")
 
         articles = open("articles.xml", "w")
         articles.write("<pages>")

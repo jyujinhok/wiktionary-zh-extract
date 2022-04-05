@@ -1,4 +1,3 @@
 enwiktionary-*.txt
 enwiktionary-*.bz2
-articles.xml
-modules.xml
+*.xml
